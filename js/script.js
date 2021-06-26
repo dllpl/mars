@@ -106,21 +106,11 @@
         let videoSrc;
         $('.video-btn').on('click',function () {
             videoSrc = $(this).data("src");
-            console.log(videoSrc);
         });
-
-// when the modal is opened autoplay it
-
-
-
-// stop playing the youtube video when I close the modal
         $('#videoModal').on('hide.bs.modal', function (e) {
             // a poor man's stop video
             $("#video").attr('src', videoSrc);
         })
-
-
-// document ready
     });
 
     //Parallax Scene for Icons
