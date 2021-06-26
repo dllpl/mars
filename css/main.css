@@ -629,6 +629,13 @@ img{
   border: 20px solid transparent;
   border-top: 0;
 }
+@media (min-width: 1024px) {
+	.img-faq {
+		width: 85%;
+	}
+
+}
+
 
 .back-to-top::before{
   top: -20px;
@@ -673,7 +680,6 @@ img{
     color:#161616;
     font-weight: 600;
     line-height: 1.3em;
-	padding-bottom:30px;
 }
 
 /*.sec-title h2:before{*/
@@ -1661,12 +1667,26 @@ img{
 		overflow:hidden;
 		padding:150px 0px 80px;
 	}
+	.video-iframe {
+		width: 475px;
+		height: 300px;
+	}
 }
 @media (max-width: 768px) {
 	.main-slider .slide{
 		position:relative;
 		overflow:hidden;
 		padding:50px 0px 80px;
+	}
+	.video-iframe {
+		width: 375px;
+		height: 200px;
+	}
+}
+@media (max-width: 375px) {
+	.video-iframe {
+		width: 310px;
+		height: 200px;
 	}
 }
 
@@ -1805,12 +1825,12 @@ img{
 
 .about-section{
 	position: relative;
-	padding:30px 0px 90px;
+	padding:30px 0px 20px;
 }
 
 .about-section .content-column{
 	position: relative;
-	margin-bottom:40px;
+	margin-bottom:10px;
 }
 
 .about-section .content-column .inner-column{
@@ -1922,7 +1942,7 @@ img{
 
 .certificate-section{
 	position: relative;
-	padding:100px 0px 130px;
+	padding:50px 0px 50px;
 	background-color:#eaecf4;
 
 }
@@ -3527,7 +3547,7 @@ img{
 
 .call-to-action-section{
 	position:relative;
-	padding-top:50px;
+
 	z-index:1;
 }
 
