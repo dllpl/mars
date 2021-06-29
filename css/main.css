@@ -1721,10 +1721,11 @@ img {
 
 @media (max-width: 375px) {
     .video-iframe {
-        width: 345px;
+        width: 340px;
         height: 200px;
     }
 }
+
 
 .main-slider .content-column .text {
     position: relative;
