@@ -503,6 +503,17 @@
         });
     }
 
+    $(document).ready(function() {
+        $("a").click(function () {
+            var elementClick = $(this).attr("href")
+            var destination = $(elementClick).offset().top - $('.main-header').height();
+            jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 300);
+            $('body').removeClass('mobile-menu-visible');
+            return false;
+        });
+    });
+
+
     // Scroll to a Specific Div
     if ($('.scroll-to-target').length) {
         $(".scroll-to-target").on('click', function () {

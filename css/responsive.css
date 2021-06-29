@@ -193,7 +193,7 @@
 	}
 	
 	.about-section .content-column .inner-column{
-		padding-top:10px;
+		padding-top:1px;
 	}
 	
 	.services-section .image-column .inner-column .pattern-layer-two{
@@ -647,6 +647,7 @@
 	
 	.services-section .image-column .inner-column .image img{
 		max-width:100%;
+		margin-top: -35px;
 	}
 	
 	.sec-title .text br{
